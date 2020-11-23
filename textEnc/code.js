@@ -16,7 +16,7 @@ $(document).ready(function () {
 	document.getElementById("copyButton").addEventListener("click", function() {
     copyToClipboard(document.getElementById("resultAction"));
 });
-
+// new code
 function copyToClipboard(elem) {
 	  // create hidden text element, if it doesn't already exist
     var targetId = "_hiddenCopyText_";
