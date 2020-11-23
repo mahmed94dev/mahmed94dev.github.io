@@ -15,14 +15,12 @@ $(document).ready(function () {
 	
 	document.getElementById("copyButton").addEventListener("click", function() {
     copyToClipboard(document.getElementById("resultAction"));
+	$("#copyAction").text("Copied !");
 	
 	
 });
 
-document.getElementById("copyButton").addEventListener("click", function() {
-	$("#copyAction").text("Copied !");
-		
-	});
+
 // new code
 function copyToClipboard(elem) {
 	  // create hidden text element, if it doesn't already exist
